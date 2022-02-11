@@ -10,7 +10,7 @@
           "autoscaling_enabled":false,
           "cluster_topology":[
             {
-              "zone_count":2,
+              "zone_count":1,
               "elasticsearch":{
                 "node_attributes":{
                   "data":"hot"

@@ -180,7 +180,10 @@
             }
           ],
           "kibana":{
-            "version":"7.14.0"
+            "version":"7.14.0",
+            "user_settings_override_json": {
+              "xpack.data_enhanced.search.sessions.enabled": false
+            }
           }
         },
         "ref_id":"main-kibana"

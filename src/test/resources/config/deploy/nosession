@@ -9,7 +9,7 @@ elasticsearch {
 kibana {
     memory = 1024
     user-settings-overrides-json {
-      xpack.data_enhanced.search.sessions.enabled = false
+      "xpack.data_enhanced.search.sessions.enabled" = false
     }
 }
 

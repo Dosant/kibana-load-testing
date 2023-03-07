@@ -1,0 +1,16 @@
+elasticsearch {
+    deployment_template = "gcp-io-optimized"
+    hot_content {
+        instance_configuration_id = "gcp.data.highio.1"
+        memory = 8192
+    }
+}
+
+kibana {
+    memory = 1024
+    user-settings-overrides-json {
+      "xpack.data_enhanced.search.sessions.enabled" = false
+    }
+}
+
+category = "general-purpose"
